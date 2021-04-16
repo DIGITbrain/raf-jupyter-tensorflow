@@ -1,0 +1,7 @@
+version: "3"
+services:
+  rstudio:
+    image: digitbrain/raf-jupyter-tensorflow:latest
+    restart: always
+    ports:
+      - 8888:8888
